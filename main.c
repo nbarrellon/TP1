@@ -27,6 +27,7 @@ int main(int nb_args,char tab_args[]){
     affiche_tas(tas,n);
     tas = insere_dans_tas(tas,6,n);
     affiche_tas(tas,n);
+    printf("val=%d\n",valeur_mini_tas(tas,n));
     tas = supprime_dans_tas(tas,n);
     affiche_tas(tas,n);
     tas = supprime_dans_tas(tas,n);
